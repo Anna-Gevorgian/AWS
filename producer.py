@@ -4,8 +4,8 @@ import boto3
 sqs = boto3.client(
     "sqs",
     region_name="eu-north-1",
-    aws_access_key_id="AKIA6KXQE6XEXP2JDI",
-    aws_secret_access_key="y/F8+HtgzqOWVsHPdMgzG3lIsVt8SpkYSbmnA5",
+    aws_access_key_id=".....",
+    aws_secret_access_key=".....",
 )
 
 
@@ -18,4 +18,5 @@ if __name__ == '__main__':
     )
 
     print("Message ID:", response['MessageId'])
+
 
